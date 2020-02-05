@@ -1,0 +1,75 @@
+
+body{
+  font-family: 'Work Sans', sans-serif;
+  color: #e8f7ee;
+  font-size: 20px;
+}
+
+i {
+  color: grey;
+  font-size: 35px;
+}
+
+.card{
+  text-align: center;
+  width: 550px;
+  margin: 10px auto;
+}
+
+#banner{
+text-align: center;
+  width: 550px;
+  margin: 0px auto;
+}
+
+#foto {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.3);
+  transform: rotate(0deg);
+  transition: transform 2500ms ease, opacity 50ms ease;
+}
+
+#foto:hover {
+  transform: rotate(360deg);
+  opacity: 1;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.btn-red {
+  background-color: grey;
+  border-radius: 8px;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px 10px;
+  margin: 0px auto;
+}
+
+.btn-red:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.list {
+  padding: 0;
+  display: inline-block;
+}
+
+.list > li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px 7px;
+}
+
+.list > li :hover{
+  color: white;
+  opacity: 0.8;
+}
